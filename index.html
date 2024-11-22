@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página pessoal de exemplo">
+  <title>Yasmin Silva</title>
+  <!-- Link para o Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="shorcut icon" href="img/image0.jpeg">
+  <!-- Link para CSS adicional -->
+  <style>
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .hero {
+      background-color: #f8f9fa;
+      padding: 50px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="hero text-center">
+    <img src="img/image0.jpeg" alt="Foto de perfil" class="profile-img mb-3">
+    <h1>Yasmin Silva</h1>
+    <p class="lead">Desenvolvedora | Designer | Estudante de Tecnologia</p>
+    <div>
+      <a href="#about" class="btn btn-primary">Sobre Mim</a>
+      <a href="#projects" class="btn btn-outline-secondary">Projetos</a>
+    </div>
+  </header>
+
+  <!-- Sobre Mim -->
+  <section id="about" class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <h2>Sobre Mim</h2>
+        <p>
+          Me chamo Yasmin Silva, tenho 15 anos, estou terminando o primeiro ano do ensino médio, 
+          fazendo curso de programação na Afesu, 
+          ja fiz outros cursos mas esse é o de atualmente e estou gostando muito dessa experiência.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projects" class="container py-5 bg-light">
+    <div class="text-center mb-5">
+      <h2>Meus Cursos</h2>
+      <p class="lead">Veja alguns cursos que ja conclui e estou concluindo</p>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/Google-Cloud.png" class="card-img-top" alt="Projeto 1" >
+          <div class="card-body">
+            <h5 class="card-title">Google Cloud</h5>
+            <p class="card-text">Google Cloud é a plataforma de computação em nuvem da Google, ]
+              oferecendo serviços como armazenamento, inteligência artificial, e análise de dados. 
+              Destaca-se pela escalabilidade, segurança e ferramentas como o BigQuery e
+              Google Kubernetes Engine (GKE), permitindo às empresas gerenciar e expandir suas 
+              operações de forma eficiente e segura.
+
+            </p>
+            <a href="#" class="btn btn-primary">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/web-interface.jpg" class="card-img-top" alt="Projeto 2">
+          <div class="card-body">
+            <h5 class="card-title">Design de Interface Web</h5>
+            <p class="card-text">Design de interface web é a criação da parte visual e interativa de um site, 
+              focando na experiência do usuário (UX) e na estética (UI). Inclui elementos como layout,
+               cores, tipografia, botões e imagens, além de garantir responsividade
+               (adaptação a diferentes dispositivos). O objetivo é criar interfaces intuitivas, 
+               agradáveis e fáceis de usar, melhorando a navegação e acessibilidade.
+
+            </p>
+            <a href="#" class="btn btn-primary">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/google-inteligencia-artificial.jpg" class="card-img-top" alt="Projeto 3">
+          <div class="card-body">
+            <h5 class="card-title">Google Inteligência Artificial (AI)</h5>
+            <p class="card-text"> A Inteligência Artificial (IA) do Google inclui tecnologias como o
+              Google Assistant, Google Translate e o framework TensorFlow.
+               Ela permite automação e aprendizado de máquinas em produtos como busca, 
+               Gmail e YouTube, além de oferecer soluções para empresas através do Google Cloud AI.
+
+            </p>
+            <a href="#" class="btn btn-primary">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contact" class="container py-5">
+    <div class="text-center mb-5">
+      <h2>Contato</h2>
+      <p class="lead">Gostou do que viu? Entre em contato!</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Seu Nome</label>
+            <input type="text" class="form-control" id="name" placeholder="Seu Nome">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Seu Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Seu Email">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Mensagem</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Sua Mensagem"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="text-center py-4 bg-dark text-light">
+    <p>&copy; 2024 Yasmin. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Link para o Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
